@@ -12,7 +12,7 @@ public class DatasetRecordDTO {
     }
 
     public void setDataFromFlatJson(Map<String, Object> flatData) {
-        this.data.putAll(flatData); // Dynamically wraps incoming JSON as 'data'
+        this.data.putAll(flatData);
     }
 
     public String getDatasetName() {
